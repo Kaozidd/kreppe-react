@@ -1,0 +1,28 @@
+{
+  "name": "kreppe-react",
+  "version": "1.0.0",
+  "description": "This is a mobile-first web app for Kreppe CDMX",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaozidd/kreppe-react.git"
+  },
+  "keywords": [
+    "app",
+    "hair",
+    "beauty",
+    "salon",
+    "products",
+    "boutique",
+    "store"
+  ],
+  "author": "kaozidd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaozidd/kreppe-react/issues"
+  },
+  "homepage": "https://github.com/Kaozidd/kreppe-react#readme"
+}
