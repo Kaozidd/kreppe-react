@@ -4,7 +4,9 @@
   "description": "This is a mobile-first web app for Kreppe CDMX",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "build-sass": "node-sass ./public/style/scss/style.scss -o ./public/style/css/"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,30 @@
   "bugs": {
     "url": "https://github.com/Kaozidd/kreppe-react/issues"
   },
-  "homepage": "https://github.com/Kaozidd/kreppe-react#readme"
+  "homepage": "https://github.com/Kaozidd/kreppe-react#readme",
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "bcryptjs": "2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "1.4.4",
+    "cookie-session": "1.3.3",
+    "cors": "^2.8.5",
+    "express": "4.17.1",
+    "knex": "^0.19.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.2",
+    "objection": "1.6.11",
+    "passport": "0.4.0",
+    "passport-local": "1.0.0",
+    "react": "16.1.0",
+    "react-dom": "16.1.0",
+    "react-router-dom": "4.2.0",
+    "superagent": "^5.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-stage-2": "^6.24.1",
+    "ejs": "^2.7.1"
+  }
 }

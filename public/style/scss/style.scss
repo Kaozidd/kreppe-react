@@ -1,0 +1,13 @@
+$color-01: #A66;
+$color-02: #223;
+
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: $color-02;
+    &__main {
+        color: $color-01;
+    } 
+}
